@@ -1,0 +1,356 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Inventory
+</name>
+</assembly>
+<members>
+<member name="T:Inventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Inventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Inventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1.invtry_dataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1.invtry_dataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1.invtry_dataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1TableAdapters.invtry_dataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory.lptp_invntryDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory.lptp_invntryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory.lptp_invntryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.UpdateAll(Inventory.lptp_invntryDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2.inv_dataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2.inv_dataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2.inv_dataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2TableAdapters.inv_dataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory.lptp_invntryDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory.lptp_invntryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory.lptp_invntryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.UpdateAll(Inventory.lptp_invntryDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3.invtry_dataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3.invtry_dataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3.invtry_dataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3TableAdapters.invtry_dataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory.lptp_invntryDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory.lptp_invntryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory.lptp_invntryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.UpdateAll(Inventory.lptp_invntryDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5.inv_dataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5.inv_dataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5.inv_dataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5TableAdapters.inv_dataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory.lptp_invntryDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory.lptp_invntryDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory.lptp_invntryDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.UpdateAll(Inventory.lptp_invntryDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet.usr_dataDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet.usr_dataRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSet.usr_dataRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSetTableAdapters.usr_dataTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory.lptp_invntryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory.lptp_invntryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory.lptp_invntryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory.lptp_invntryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory.lptp_invntryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
